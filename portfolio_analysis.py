@@ -9,7 +9,6 @@ my_portfolio = {
     'SPY': 7.58,
     'QQQ': 6.74,
     'GLD': 8.16,
-    'NVDA': 10.0
 }
 
 class PortfolioRiskAnalyzer:
