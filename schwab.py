@@ -3,8 +3,8 @@ import requests
 
 # Your Schwab API credentials
 client_id = "YEtcahvfjgTwA84YWR7MsGOMvKGKkWpq"
-client_secret = "vR3VFc6H8ZAR29zF"
-redirect_uri = "https://127.0.0.1"  # Must match Schwab registration
+client_secret = ""
+redirect_uri = ""  # Must match Schwab registration
 
 # Authorization URL
 auth_url = f"https://api.schwabapi.com/v1/oauth/authorize?response_type=code&client_id={client_id}&scope=readonly&redirect_uri={redirect_uri}"
